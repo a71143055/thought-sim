@@ -1,8 +1,8 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
-from app.sim_engine import SimulationEngine
-from app.api.routes import router as api_router
+from src.app.sim_engine import SimulationEngine
+from src.app.api.routes import router as api_router
 import os
 
 app = FastAPI(title="ThoughtSim")

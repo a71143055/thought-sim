@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from app.sim_engine import SimulationEngine
+from src.app.sim_engine import SimulationEngine
 from typing import Dict
 import uuid
 
